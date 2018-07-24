@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+    <link rel="stylesheet" href="assets/css/demoHeader.css">
+    <link rel="stylesheet" href="assets/css/footer-distributed-with-search.css">
+    <link rel="stylesheet" href="assets/css/header-fixed.css">
+    <link rel="stylesheet" href="assets/css/slide.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/tab.css">
+</head>
+
+<body><header class="header-fixed">
+
+	<div class="header-limiter">
+
+		<h1><a href="index.html">Largest<span>Empires</span></a></h1>
+
+
+
+	</div>
+
+</header><div id=empirePage>
+    <div class="empireTitle"><img src="assets/img/spanishTitle.png"></div>
+    <input type="button" onclick="tableToExcel('spanishTable', 'W3C Example Table')" value="Export to Excel">
+    <a href="spanishMD.html" download>
+        <input type="button" value="Export to HTML">
+    </a>
+    <span id=spanishJson ></span>
+    <div class="tableContainer">
+    <table id=spanishTable>
+        <thead>
+        <tr>
+            <th>
+                Years
+            </th>
+            <th>
+                Capital
+            </th>
+            <th>
+                Languages
+            </th>
+            <th>
+                Religion
+            </th>
+            <th>
+                Area (million km^2)
+            </th>
+            <th>
+                Currency
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                1492-1975
+            </td>
+            <td>
+                Madrid   
+            </td>
+            <td>
+                Spanish, Latin, Italian
+            </td>
+            <td>
+                Catholic Christianity
+            </td>
+            <td>
+                13.7
+            </td>
+            <td>
+                Spanish Real, Escudo, Spanish Dollar, Spanish Peseta
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+    <div class= "empireImages">
+        <span><img src="assets/img/spanishL.jpg"></span>
+        <a href="assets/img/spanishLarge.png"><span id=spanish></span></a>
+        <span><img src="assets/img/spanish1.jpg"></span>
+        <span><img src="assets/img/spanish2.jpg"></span>
+    </div>
+    <div id=spanishContent class="empireContent"></div>
+</div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

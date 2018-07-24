@@ -1,0 +1,118 @@
+html {
+  height:100%;
+}
+
+body {
+  height:100%;
+  overflow:auto;
+}
+
+#title {
+  height:7%;
+  background:darkturquoise;
+  text-align:center;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+  border:1px solid #ddd;
+}
+
+th, td {
+  text-align:left;
+  padding:8px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color:#f2f2f2;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+  border:1px solid #ddd;
+}
+
+th, td {
+  text-align:left;
+  padding:8px;
+}
+
+tr:nth-child(even) {
+  background-color:#f2f2f2;
+}
+
+#aboutBullets li {
+  padding:inherit;
+}
+
+.empireImages {
+  padding:10px;
+  text-align:center;
+}
+
+.empireImages img {
+  width:250px;
+  margin-right:10px;
+}
+
+.empireContent {
+  background:rgba(204,204,204,0.5);
+  padding:10px;
+}
+
+.tableContainer {
+  padding:10px;
+}
+
+#contet {
+  background-image:url('../../assets/img/background.jpg');
+  /*margin:20px;*/
+  height:-webkit-fill-available;
+  text-align:center;
+}
+
+#empirePage {
+  background-image:url('../../assets/img/background.jpg');
+  padding:20px;
+}
+
+.mainIcon {
+  width:200px;
+  opacity:0.7;
+  padding:7px;
+  height:160px;
+}
+
+.mainIcon:hover {
+  opacity:1;
+}
+
+.floatnone {
+  display:inline-block;
+}
+
+#about {
+  background-image:url('../../assets/img/background.jpg');
+  padding:20px;
+  height:auto;
+}
+
+#aboutContent {
+  background:rgba(204,204,204,0.5);
+  padding:10px;
+}
+
+.empireTitle {
+  text-align:center;
+}
+
+#empirePage {
+}
+
+#umayyadTable {
+}
+
